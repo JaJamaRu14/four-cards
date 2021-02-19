@@ -1,0 +1,172 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+header {
+  text-align: center;
+  margin: 6.5rem 0 3rem 0;
+}
+
+.heading-title {
+  font-size: 2.3rem;
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.heading-title > span {
+  font-weight: 600;
+}
+
+.heading-description {
+  color: hsl(229, 6%, 66%);
+  /* width: 75%; */
+  padding: 0 4.95rem;
+}
+
+main {
+  height: 60%;
+}
+
+.card-container {
+  height: 100%;
+}
+
+.card-box {
+  height: 76%;
+}
+
+.four-card {
+  background-color: white;
+  width: 84%;
+  height: 59%;
+  border-radius: 5px;
+  box-shadow: 0px 11px 17px rgba(5, 86, 179, 0.123);
+  padding: 2rem 2rem 0 2rem;
+}
+
+.card-title {
+  color: hsl(234, 12%, 34%);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.card-description {
+  color: hsl(229, 6%, 66%);
+  font-size: 0.8rem;
+  line-height: 1.8;
+  margin-bottom: 2.2rem;
+}
+
+.card-img {
+  width: 22.5%;
+  /* height: 18%; */
+}
+
+.cyan {
+  border-top: 4px solid hsl(180, 62%, 55%);
+  margin-top: 4.6rem;
+  margin-left: 6.1rem;
+}
+
+.red {
+  border-top: 4px solid hsl(0, 78%, 62%);
+  margin-top: -4.3rem;
+  margin-left: 2.3rem;
+}
+
+.orange {
+  border-top: 4px solid hsl(34, 97%, 64%);
+  margin-top: 2rem;
+  margin-left: 2.3rem;
+}
+
+.blue {
+  border-top: 4px solid hsl(212, 86%, 64%);
+  margin-top: 4.6rem;
+  margin-left: -1.5rem;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 400px) {
+  body {
+    overflow: scroll;
+  }
+
+  header {
+    margin: 3.5rem 0 3rem 0;
+  }
+
+  .heading-title {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  .heading-description {
+    padding: 0 2rem;
+  }
+
+  .card-box {
+    height: 55%;
+  }
+
+  .four-card {
+    height: 80%;
+    width: 88%;
+    padding: 1.5rem 1rem 0 2rem;
+  }
+
+  .card-title {
+    margin-bottom: 0.4rem;
+  }
+
+  .card-img {
+    width: 20%;
+    /* height: 18%; */
+  }
+
+  .cyan {
+    margin-top: 0.8rem;
+    margin-left: 1.41rem;
+  }
+
+  .red {
+    margin-top: -1rem;
+    margin-left: 1.41rem;
+  }
+
+  .orange {
+    margin-top: 1.5rem;
+    margin-left: 1.41em;
+  }
+
+  .blue {
+    margin-top: 12rem;
+    margin-left: 1.41rem;
+  }
+
+  footer {
+    margin-top: 31rem;
+    padding-bottom: 0.3rem;
+  }
+}
